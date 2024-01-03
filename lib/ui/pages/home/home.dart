@@ -541,6 +541,7 @@ class _SliderScreenState extends State<SliderScreen> {
                     ),
                   ),
                 ),
+<<<<<<< HEAD
                 for (int index = 0; index < 5; index++)
                   Row(
                     children: [
@@ -663,10 +664,220 @@ class _SliderScreenState extends State<SliderScreen> {
                                               ),
                                             ),
                                           ],
+=======
+                Text('data'),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left: 20),
+                      child: Container(
+                        width: 170,
+                        child: Column(
+                          children: [
+                            Container(
+                              width: 150,
+                              height: 140,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10),
+                                image: DecorationImage(
+                                  image: AssetImage('assets/img_5.png'),
+                                  fit: BoxFit.cover,
+                                ),
+                                boxShadow: [
+                                  BoxShadow(
+                                    offset: Offset(11, 17),
+                                    blurRadius: 27,
+                                    color: Color.fromRGBO(1, 0, 0, 0.04),
+                                  ),
+                                ],
+                                color: Color(0xFFE4E6E8),
+                              ),
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    right: 8,
+                                    top: 8,
+                                    child: Container(
+                                      width: 32,
+                                      height: 32,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(8),
+                                        color: Color(0xFF14181E),
+                                      ),
+                                      child: Icon(
+                                        Icons.favorite,
+                                        size: 16,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(left: 15.0),
+                              child: Column(
+                                children: [
+                                  Text(
+                                    'CONTRASTING CROPPED VARSITY TOP',
+                                    style: TextStyle(
+                                      fontFamily: 'Plus Jakarta Sans',
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 14,
+                                      color: Color(0xFF14181E),
+                                    ),
+                                  ),
+                                  SizedBox(height: 6),
+                                  Row(
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        '\$153',
+                                        style: TextStyle(
+                                          fontFamily: 'Plus Jakarta Sans',
+                                          fontWeight: FontWeight.w400,
+                                          fontSize: 8,
+                                          color: Color(0xFFC4C5C9),
+                                        ),
+                                      ),
+                                      SizedBox(width: 10),
+                                      Text(
+                                        '\$126.99',
+                                        style: TextStyle(
+                                          fontFamily: 'Plus Jakarta Sans',
+                                          fontWeight: FontWeight.w600,
+                                          fontSize: 12,
+                                          color: Color(0xFF614FE0),
                                         ),
                                       ),
                                     ],
                                   ),
+                                  SizedBox(height: 5),
+                                  ElevatedButton(
+                                    onPressed: () {
+                                      // Add your onPressed logic here
+                                    },
+                                    style: ElevatedButton.styleFrom(
+                                      primary: Color(0xFF14181E),
+                                      // Set the background color
+                                      shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.circular(8),
+                                      ),
+                                    ),
+                                    child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        Icon(
+                                          Icons.shopping_bag,
+                                          size: 16,
+                                          color: Colors.white,
+                                        ),
+                                        SizedBox(width: 10),
+                                        Text(
+                                          'Add to Cart',
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.w500,
+                                            fontSize: 12,
+                                            color: Colors.white,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 20),
+                      child: Container(
+                        width: 170,
+                        child: Column(
+                          children: [
+                            Container(
+                              width: 150,
+                              height: 140,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10),
+                                image: DecorationImage(
+                                  image: AssetImage('assets/img_5.png'),
+                                  fit: BoxFit.cover,
+                                ),
+                                boxShadow: [
+                                  BoxShadow(
+                                    offset: Offset(11, 17),
+                                    blurRadius: 27,
+                                    color: Color.fromRGBO(1, 0, 0, 0.04),
+                                  ),
+                                ],
+                                color: Color(0xFFE4E6E8),
+                              ),
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    right: 8,
+                                    top: 8,
+                                    child: Container(
+                                      width: 32,
+                                      height: 32,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(8),
+                                        color: Color(0xFF14181E),
+                                      ),
+                                      child: Icon(
+                                        Icons.favorite,
+                                        size: 16,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(left: 15.0),
+                              child: Column(
+                                children: [
+                                  Text(
+                                    'CONTRASTING CROPPED VARSITY TOP',
+                                    style: TextStyle(
+                                      fontFamily: 'Plus Jakarta Sans',
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 14,
+                                      color: Color(0xFF14181E),
+                                    ),
+                                  ),
+                                  SizedBox(height: 6),
+                                  Row(
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        '\$153',
+                                        style: TextStyle(
+                                          fontFamily: 'Plus Jakarta Sans',
+                                          fontWeight: FontWeight.w400,
+                                          fontSize: 8,
+                                          color: Color(0xFFC4C5C9),
+                                        ),
+                                      ),
+                                      SizedBox(width: 10),
+                                      Text(
+                                        '\$126.99',
+                                        style: TextStyle(
+                                          fontFamily: 'Plus Jakarta Sans',
+                                          fontWeight: FontWeight.w600,
+                                          fontSize: 12,
+                                          color: Color(0xFF614FE0),
+>>>>>>> 270ab82a3caa2933adeb523170f9ed6e4eccaa06
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+<<<<<<< HEAD
                                 ),
                               ],
                             ),
@@ -674,6 +885,305 @@ class _SliderScreenState extends State<SliderScreen> {
                         ),
                     ],
                   ),
+=======
+                                  SizedBox(height: 5),
+                                  ElevatedButton(
+                                    onPressed: () {
+                                      // Add your onPressed logic here
+                                    },
+                                    style: ElevatedButton.styleFrom(
+                                      primary: Color(0xFF14181E),
+                                      // Set the background color
+                                      shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.circular(8),
+                                      ),
+                                    ),
+                                    child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        Icon(
+                                          Icons.shopping_bag,
+                                          size: 16,
+                                          color: Colors.white,
+                                        ),
+                                        SizedBox(width: 10),
+                                        Text(
+                                          'Add to Cart',
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.w500,
+                                            fontSize: 12,
+                                            color: Colors.white,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 15.0,
+                ),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left: 20),
+                      child: Container(
+                        width: 170,
+                        child: Column(
+                          children: [
+                            Container(
+                              width: 150,
+                              height: 140,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10),
+                                image: DecorationImage(
+                                  image: AssetImage('assets/img_5.png'),
+                                  fit: BoxFit.cover,
+                                ),
+                                boxShadow: [
+                                  BoxShadow(
+                                    offset: Offset(11, 17),
+                                    blurRadius: 27,
+                                    color: Color.fromRGBO(1, 0, 0, 0.04),
+                                  ),
+                                ],
+                                color: Color(0xFFE4E6E8),
+                              ),
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    right: 8,
+                                    top: 8,
+                                    child: Container(
+                                      width: 32,
+                                      height: 32,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(8),
+                                        color: Color(0xFF14181E),
+                                      ),
+                                      child: Icon(
+                                        Icons.favorite,
+                                        size: 16,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(left: 15.0),
+                              child: Column(
+                                children: [
+                                  Text(
+                                    'CONTRASTING CROPPED VARSITY TOP',
+                                    style: TextStyle(
+                                      fontFamily: 'Plus Jakarta Sans',
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 14,
+                                      color: Color(0xFF14181E),
+                                    ),
+                                  ),
+                                  SizedBox(height: 6),
+                                  Row(
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        '\$153',
+                                        style: TextStyle(
+                                          fontFamily: 'Plus Jakarta Sans',
+                                          fontWeight: FontWeight.w400,
+                                          fontSize: 8,
+                                          color: Color(0xFFC4C5C9),
+                                        ),
+                                      ),
+                                      SizedBox(width: 10),
+                                      Text(
+                                        '\$126.99',
+                                        style: TextStyle(
+                                          fontFamily: 'Plus Jakarta Sans',
+                                          fontWeight: FontWeight.w600,
+                                          fontSize: 12,
+                                          color: Color(0xFF614FE0),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                  SizedBox(height: 5),
+                                  ElevatedButton(
+                                    onPressed: () {
+                                      // Add your onPressed logic here
+                                    },
+                                    style: ElevatedButton.styleFrom(
+                                      primary: Color(0xFF14181E),
+                                      // Set the background color
+                                      shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.circular(8),
+                                      ),
+                                    ),
+                                    child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        Icon(
+                                          Icons.shopping_bag,
+                                          size: 16,
+                                          color: Colors.white,
+                                        ),
+                                        SizedBox(width: 10),
+                                        Text(
+                                          'Add to Cart',
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.w500,
+                                            fontSize: 12,
+                                            color: Colors.white,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 20),
+                      child: Container(
+                        width: 170,
+                        child: Column(
+                          children: [
+                            Container(
+                              width: 150,
+                              height: 140,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10),
+                                image: DecorationImage(
+                                  image: AssetImage('assets/img_5.png'),
+                                  fit: BoxFit.cover,
+                                ),
+                                boxShadow: [
+                                  BoxShadow(
+                                    offset: Offset(11, 17),
+                                    blurRadius: 27,
+                                    color: Color.fromRGBO(1, 0, 0, 0.04),
+                                  ),
+                                ],
+                                color: Color(0xFFE4E6E8),
+                              ),
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    right: 8,
+                                    top: 8,
+                                    child: Container(
+                                      width: 32,
+                                      height: 32,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(8),
+                                        color: Color(0xFF14181E),
+                                      ),
+                                      child: Icon(
+                                        Icons.favorite,
+                                        size: 16,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(left: 15.0),
+                              child: Column(
+                                children: [
+                                  Text(
+                                    'CONTRASTING CROPPED VARSITY TOP',
+                                    style: TextStyle(
+                                      fontFamily: 'Plus Jakarta Sans',
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 14,
+                                      color: Color(0xFF14181E),
+                                    ),
+                                  ),
+                                  SizedBox(height: 6),
+                                  Row(
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        '\$153',
+                                        style: TextStyle(
+                                          fontFamily: 'Plus Jakarta Sans',
+                                          fontWeight: FontWeight.w400,
+                                          fontSize: 8,
+                                          color: Color(0xFFC4C5C9),
+                                        ),
+                                      ),
+                                      SizedBox(width: 10),
+                                      Text(
+                                        '\$126.99',
+                                        style: TextStyle(
+                                          fontFamily: 'Plus Jakarta Sans',
+                                          fontWeight: FontWeight.w600,
+                                          fontSize: 12,
+                                          color: Color(0xFF614FE0),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                  SizedBox(height: 5),
+                                  ElevatedButton(
+                                    onPressed: () {
+                                      // Add your onPressed logic here
+                                    },
+                                    style: ElevatedButton.styleFrom(
+                                      primary: Color(0xFF14181E),
+                                      // Set the background color
+                                      shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.circular(8),
+                                      ),
+                                    ),
+                                    child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        Icon(
+                                          Icons.shopping_bag,
+                                          size: 16,
+                                          color: Colors.white,
+                                        ),
+                                        SizedBox(width: 10),
+                                        Text(
+                                          'Add to Cart',
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.w500,
+                                            fontSize: 12,
+                                            color: Colors.white,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+>>>>>>> 270ab82a3caa2933adeb523170f9ed6e4eccaa06
                 SizedBox(
                   height: 15.0,
                 ),
